@@ -8,11 +8,11 @@
 ![alt text](https://i.stack.imgur.com/BwWGs.png "Quick Action")
 
 4. Add the Action...
-* Workflow receives current files or folders from Finder.
+* Workflow receives current **files or folders** from **Finder.**
 * Add a new Run Shell Script action to the workflow. (drag the "Run Shell Script" object, highlighted in the screenshot, to the empty window on the right)
 
 5. Configure the Workflow
-* Set the Pass Input to be as arguments
+* Set the Pass Input to be **as arguments**
 * Paste the following in the input box:
 ```open -n -b "com.microsoft.VSCode" --args "$*" ```
 ![alt text](https://i.stack.imgur.com/MnPT6.png "Workflow")
